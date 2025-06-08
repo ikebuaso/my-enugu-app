@@ -28,7 +28,7 @@
 
         /* Mobile App Container */
         .mobile-container {
-            width: 375px; /* A common mobile width */
+            width: auto; /* A common mobile width */
             height: 812px; /* A common mobile height */
             background-color: var(--bg-dark);
             border-radius: 40px;

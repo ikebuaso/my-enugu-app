@@ -17,7 +17,8 @@
         }
 
         body {
-          
+            font-family: var(--font-family-primary);
+            color: var(--text-light);
             width: auto; /* A common mobile width */
             height: 800px; /* A common mobile height */
             background-color: var(--bg-dark);

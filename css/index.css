@@ -292,8 +292,7 @@
         .bottom-nav {
             background-color: var(--nav-dark);
             padding: 12px 24px;
-            border-top-left-radius: 24px;
-            border-top-right-radius: 24px;
+            z-index: 1;
         }
 
         .nav-items {
@@ -307,7 +306,7 @@
             flex-direction: column;
             align-items: center;
             gap: 4px;
-            color: var(--text-gray);
+            color: var(-a-text-gray);
             text-decoration: none;
             cursor: pointer;
             transition: color 0.2s ease-in-out;

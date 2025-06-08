@@ -29,7 +29,7 @@
         /* Mobile App Container */
         .mobile-container {
             width: auto; /* A common mobile width */
-            height: 900px; /* A common mobile height */
+            height: 800px; /* A common mobile height */
             background-color: var(--bg-dark);
             border-bottom-left-radius: 24px;
             border-bottom-right-radius: 24px;

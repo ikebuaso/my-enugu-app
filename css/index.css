@@ -13,6 +13,7 @@
         * {
             margin: 0;
             padding: 0;
+            box-sizing: border-box;
         }
 
         body {
@@ -29,10 +30,7 @@
         }
 
         /* Mobile App Container */
-        .mobile-container {
-            width: 100vw;
-        }
-
+        
         /* Header Section */
         .app-header {
             padding: 40px 24px 16px 24px;

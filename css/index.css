@@ -13,19 +13,19 @@
         * {
             margin: 0;
             padding: 0;
-            box-sizing: border-box; 
         }
 
         body {
             font-family: var(--font-family-primary);
             color: var(--text-light);
             width: auto; /* A common mobile width */
-            height: 800px; /* A common mobile height */
+            height: 100vh; /* A common mobile height */
             background-color: var(--bg-dark);
             overflow: hidden;
             display: flex;
             flex-direction: column;
             position: relative;
+            border: 1px solid red; /* For debugging purposes */
         }
 
         /* Mobile App Container */
@@ -291,8 +291,10 @@
             border-top-left-radius: 24px;
             border-top-right-radius: 24px;
             margin-top: 50px;
-            position: relative;
-            top: 50px;
+            position:absolute;
+            bottom: 0;
+            border: 1px solid red;
+            width: 100vw;
          }
 
         .nav-items {

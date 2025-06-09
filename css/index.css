@@ -252,6 +252,7 @@
         .categories-section {
             margin-top: 32px;
             padding-left: 24px;
+            position: relative;
         }
 
         .categories-section h2 {

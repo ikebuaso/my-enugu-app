@@ -328,3 +328,93 @@
             font-size: 0.75rem; /* 12px */
             font-weight: 500;
         }
+
+
+         @media (min-width: 600px) {
+            .app-header {
+                padding: 40px 40px 24px 40px;
+            }
+
+            .sidebar {
+                padding: 40px 40px;
+            }
+
+            .main-content {
+                padding: 0 40px 80px 40px; /* Adjust padding for main content */
+            }
+
+            .hero-section {
+                padding: 0; /* Remove padding from hero-section itself, hero-card takes care of width */
+            }
+            .hero-card {
+                height: 280px;
+                max-width: 700px; /* Constrain hero card width on larger screens */
+                margin: 0 auto; /* Center hero card */
+            }
+
+            .hero-text h1 {
+                font-size: 2.25rem; /* 36px */
+            }
+
+            .hero-text p {
+                font-size: 1.125rem; /* 18px */
+            }
+
+            .categories-section {
+                padding-left: 40px; /* Adjust padding */
+            }
+            .cards-container {
+                padding-right: 40px; /* Adjust padding */
+            }
+            .event-card {
+                width: 220px; /* Slightly larger cards */
+                height: 280px;
+            }
+        }
+
+        /* Desktops and larger (min-width: 1024px) */
+        @media (min-width: 1024px) {
+            .app-header {
+                padding: 40px 60px 24px 60px;
+            }
+
+            .sidebar {
+                max-width: 350px; /* Larger sidebar */
+                padding: 50px 30px;
+            }
+
+            .main-content {
+                padding: 0 60px 80px 60px; /* Adjust padding for main content */
+            }
+
+            .hero-card {
+                height: 320px;
+                max-width: 900px; /* Max width for hero card */
+            }
+
+            .hero-text h1 {
+                font-size: 2.5rem; /* 40px */
+            }
+
+            .hero-text p {
+                font-size: 1.25rem; /* 20px */
+            }
+
+            .categories-section {
+                padding-left: 60px;
+            }
+            .cards-container {
+                padding-right: 60px;
+            }
+            .event-card {
+                width: 250px; /* Larger cards for desktop */
+                height: 320px;
+            }
+
+            .bottom-nav {
+                max-width: 600px; /* Constrain bottom nav width */
+                left: 50%;
+                transform: translateX(-50%);
+                border-radius: 24px; /* Fully rounded bottom nav */
+            }
+        }
